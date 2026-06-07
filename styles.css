@@ -95,16 +95,22 @@ button:focus-visible {
   min-height: 76px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
+  position: relative;
 }
 
 .logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   display: inline-flex;
   align-items: center;
   gap: 12px;
   font-weight: 900;
   letter-spacing: -0.04em;
   transition: opacity 0.2s ease;
+  z-index: 2;
 }
 
 .logo:hover {
