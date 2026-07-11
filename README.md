@@ -2,6 +2,14 @@
 
 Accelerator-ready static website copy and presentation aligned with the current product stage.
 
+## Investor-facing update
+
+- Clear problem, product wedge, customer, planned business model, and defensibility narrative
+- Honest early-stage milestones without fabricated traction or market-size claims
+- Investor, pilot, and partner conversion path
+- Brand-matched navy/taupe visual system using the supplied logo
+- Responsive desktop/mobile layouts, reduced-motion support, semantic headings, and accessible media labels
+
 ## Positioning
 
 - Native-led, sovereignty-first clinical trial intelligence
