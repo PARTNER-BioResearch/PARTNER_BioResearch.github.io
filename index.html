@@ -1,253 +1,106 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="P.A.R.T.N.E.R. BioResearch connects communities with clinical research opportunities through accessible, respectful, people-centered engagement." />
-  <title>P.A.R.T.N.E.R. BioResearch | Tulsa, OK</title>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="P.A.R.T.N.E.R. BioResearch is building Native-led, sovereignty-first clinical trial intelligence to improve feasibility, access, and trust before protocol design.">
+  <meta name="theme-color" content="#071d1a">
+  <meta property="og:title" content="P.A.R.T.N.E.R. BioResearch | Sovereignty-first clinical trial intelligence">
+  <meta property="og:description" content="Predict feasibility earlier. Design for real communities. Keep authority where it belongs.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://partnerbioresearch.tech/">
+  <link rel="canonical" href="https://partnerbioresearch.tech/">
+  <title>P.A.R.T.N.E.R. BioResearch | Sovereignty-first clinical trial intelligence</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="branding.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
-    <nav class="nav container" aria-label="Primary navigation">
-      <a class="logo" href="#home" aria-label="P.A.R.T.N.E.R. BioResearch home">
-        <span class="logo-mark">P</span>
-        <span class="logo-text">P.A.R.T.N.E.R.</span>
-      </a>
-
-      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open navigation menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#mission">Mission</a></li>
-        <li><a href="#impact">Impact</a></li>
-        <li><a href="#approach">Values</a></li>
-        <li><a href="#why">FAQ</a></li>
-        <li><a class="nav-pill" href="#connect">Connect</a></li>
-      </ul>
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="P.A.R.T.N.E.R. BioResearch home"><img src="partner-bioresearch-logo.jpg" alt="" width="180" height="120"><span class="sr-only">P.A.R.T.N.E.R. BioResearch</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span><span class="sr-only">Toggle navigation</span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#problem">Why now</a><a href="#platform">Platform</a><a href="#trust">Trust architecture</a><a href="#stage">Current stage</a><a class="button button-small" href="#contact">Partner with us</a>
+      </div>
     </nav>
   </header>
 
-  <main>
-    <section class="hero section" id="home">
-      <div class="hero-orb hero-orb-one" aria-hidden="true"></div>
-      <div class="hero-orb hero-orb-two" aria-hidden="true"></div>
-
-      <div class="container">
-        <div class="hero-logo reveal">
-          <img src="PARTNER LOGO.jpg" alt="P.A.R.T.N.E.R. BioResearch logo" />
-        </div>
-      </div>
-
-      <div class="container hero-grid">
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-grid shell">
         <div class="hero-copy reveal">
-          <p class="eyebrow">🔬 Clinical Research Reimagined</p>
-          <h1>Every community deserves access to breakthrough research.</h1>
-          <p class="hero-text">
-            P.A.R.T.N.E.R. BioResearch connects underserved communities with clinical research opportunities through transparent, respectful, and people-centered engagement. We're building a future where healthcare research includes everyone.
-          </p>
-
-          <div class="hero-stats">
-            <div class="stat-item reveal-stat">
-              <span class="stat-number">Tulsa-Based</span>
-              <p>Community-rooted research initiatives</p>
-            </div>
-            <div class="stat-item reveal-stat">
-              <span class="stat-number">Inclusive</span>
-              <p>Breaking down barriers to participation</p>
-            </div>
-            <div class="stat-item reveal-stat">
-              <span class="stat-number">Trusted</span>
-              <p>Ethical, transparent engagement</p>
-            </div>
-          </div>
-
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#connect">Get Involved</a>
-            <a class="btn btn-secondary" href="#mission">Learn Our Mission</a>
-          </div>
+          <img class="hero-logo" src="partner-bioresearch-logo.jpg" alt="P.A.R.T.N.E.R. BioResearch — Pre-Protocol Clinical Trial Intelligence" width="1536" height="1024">
+          <p class="kicker"><span></span> Native-led • Sovereignty-first • Tulsa, Oklahoma</p>
+          <h1>Clinical trials should be designed for the people they intend to serve.</h1>
+          <p class="lede">P.A.R.T.N.E.R. BioResearch connects communities with clinical research through transparent education, respectful engagement, and technology designed around access, trust, and meaningful participation.</p>
+          <div class="actions"><a class="button" href="#platform">Explore the platform</a><a class="text-link" href="#contact">Discuss a pilot <span>↗</span></a></div>
+          <div class="proof-row" aria-label="Organization principles"><span>Community-centered</span><span>Education-driven</span><span>Human-led decisions</span></div>
         </div>
-
-        <aside class="hero-card reveal" aria-label="P.A.R.T.N.E.R. BioResearch impact card">
-          <div class="hero-card-glow"></div>
-          <div class="impact-badge">
-            <span>Impact-Driven</span>
-          </div>
-          <h2>Research that reflects your community.</h2>
-          <p>
-            We believe clinical trials should be accessible to everyone, regardless of background. P.A.R.T.N.E.R. removes barriers and creates genuine opportunities for participation.
-          </p>
-
-          <div class="metric-grid">
-            <div>
-              <span class="metric-icon">🤝</span>
-              <strong>Outreach</strong>
-            </div>
-            <div>
-              <span class="metric-icon">📚</span>
-              <strong>Education</strong>
-            </div>
-            <div>
-              <span class="metric-icon">🚪</span>
-              <strong>Access</strong>
-            </div>
-          </div>
+        <aside class="signal-card reveal" aria-label="P.A.R.T.N.E.R. value proposition">
+          <p class="signal-label">The shift</p>
+          <p class="signal-old">Recruit first.<br>Discover barriers later.</p>
+          <div class="signal-line"><span></span><b>becomes</b><span></span></div>
+          <p class="signal-new">Model feasibility.<br>Design with communities.</p>
+          <ul><li>Pre-protocol risk intelligence</li><li>Culturally aligned engagement design</li><li>Governed research workflows</li></ul>
         </aside>
       </div>
-
-      <a class="scroll-cue" href="#mission" aria-label="Scroll to mission section">
-        <span>Learn more</span>
-        <div></div>
-      </a>
     </section>
 
-    <section class="section mission" id="mission">
-      <div class="container">
+    <section class="section story" id="story">
+      <div class="shell story-grid">
         <div class="section-heading reveal">
-          <p class="eyebrow">Our Mission</p>
-          <h2>Transforming how communities participate in medical research.</h2>
+          <p class="kicker">Our story in motion</p>
+          <h2>See why community-centered research matters.</h2>
+          <p>This original P.A.R.T.N.E.R. feature shares the people, purpose, and perspective behind our work.</p>
         </div>
-        <div class="mission-grid">
-          <div class="mission-card reveal">
-            <div class="mission-icon">🎯</div>
-            <h3>Why This Matters</h3>
-            <p>Clinical trials are essential for medical breakthroughs, but many communities are underrepresented in research. This leads to treatments that don't work equally well for everyone.</p>
-          </div>
-          <div class="mission-card reveal">
-            <div class="mission-icon">💡</div>
-            <h3>What We Do</h3>
-            <p>We bridge the gap between researchers and communities by providing transparent education, ethical outreach, and genuine opportunities for meaningful participation.</p>
-          </div>
-          <div class="mission-card reveal">
-            <div class="mission-icon">🌟</div>
-            <h3>How We Do It</h3>
-            <p>Through respectful engagement, clear communication, and a deep commitment to community trust, we make research participation accessible and understandable.</p>
-          </div>
+        <div class="video-container">
+          <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7436183610518482945?compact=1" height="399" width="100%" frameborder="0" allowfullscreen="" title="P.A.R.T.N.E.R. BioResearch LinkedIn Post"></iframe>          </div>
         </div>
       </div>
     </section>
 
-    <section class="section impact" id="impact">
-      <div class="container">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Impact in Action</p>
-          <h2>Hear from our community.</h2>
-        </div>
-        <div class="video-wrapper reveal">
-          <div class="video-container">
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7436183610518482945?compact=1" height="399" width="100%" frameborder="0" allowfullscreen="" title="P.A.R.T.N.E.R. BioResearch LinkedIn Post"></iframe>          </div>
+    <section class="section problem" id="problem">
+      <div class="shell split-heading reveal"><div><p class="kicker">The problem</p><h2>Research failure is often visible before enrollment starts.</h2></div><p>Protocols can be scientifically sound and still fail operationally. Site readiness, visit burden, transportation, trust, digital access, consent, and local governance are too often treated as downstream recruitment problems instead of upstream design inputs.</p></div>
+      <div class="shell outcome-grid">
+        <article class="outcome reveal"><span>01</span><h3>Late feasibility insight</h3><p>Critical patient and community barriers surface after protocol decisions are expensive to change.</p></article>
+        <article class="outcome reveal"><span>02</span><h3>Fragmented trust</h3><p>Communities are asked to participate without transparent, durable control over how data and research authority are exercised.</p></article>
+        <article class="outcome reveal"><span>03</span><h3>Unequal access</h3><p>Underrepresented communities face structural barriers that conventional site-selection models do not adequately capture.</p></article>
+      </div>
+    </section>
+
+    <section class="section platform" id="platform">
+      <div class="shell"><div class="section-heading reveal"><p class="kicker">The platform</p><h2>One intelligence layer. Four connected perspectives.</h2><p>P.A.R.T.N.E.R. turns scattered feasibility signals into reviewable decision support for sponsors, research sites, Tribal Nations, and patients.</p></div>
+        <div class="platform-grid">
+          <article class="platform-card featured reveal"><p class="card-kicker">Sponsor intelligence</p><h3>Design before you deploy.</h3><p>Model enrollment barriers, protocol burden, site readiness, activation risk, retention, and regional feasibility before avoidable risk is locked into the study.</p><ul><li>C.O.R.M. pre-protocol reasoning</li><li>Barrier and retention intelligence</li><li>Forecasting and site strategy</li></ul></article>
+          <article class="platform-card reveal"><p class="card-kicker">Tribal authority</p><h3>Sovereignty by design.</h3><p>Governance, consent, purpose-of-use, review, and audit are modeled as enforceable workflow boundaries—not a future compliance add-on.</p></article>
+          <article class="platform-card reveal"><p class="card-kicker">Site readiness</p><h3>Operational reality, surfaced.</h3><p>Translate protocol requirements into site burden, workforce, community partnership, and patient-support considerations.</p></article>
+          <article class="platform-card reveal"><p class="card-kicker">Patient access</p><h3>Plain language. Real agency.</h3><p>Help people understand research opportunities, participation expectations, rights, and consent without reducing them to recruitment targets.</p></article>
         </div>
       </div>
     </section>
 
-    <section class="section approach" id="approach">
-      <div class="container">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Our Core Values</p>
-          <h2>Built on principles of trust, transparency, and community.</h2>
-        </div>
-
-        <div class="cards">
-          <article class="feature-card reveal">
-            <div class="icon">🤝</div>
-            <h3>Community First</h3>
-            <p>We listen, learn, and engage with communities on their terms. Every interaction is built on mutual respect.</p>
-          </article>
-
-          <article class="feature-card reveal">
-            <div class="icon">🔍</div>
-            <h3>Transparent Access</h3>
-            <p>No hidden terms. We explain what clinical research is, what's involved, and why your participation matters.</p>
-          </article>
-
-          <article class="feature-card reveal">
-            <div class="icon">🎓</div>
-            <h3>Education-Driven</h3>
-            <p>Knowledge is power. We empower communities with the information needed to make informed decisions about research.</p>
-          </article>
-
-          <article class="feature-card reveal">
-            <div class="icon">🏥</div>
-            <h3>Inclusive Care</h3>
-            <p>Diversity in research leads to better outcomes for everyone. We champion equitable access to clinical trials.</p>
-          </article>
-        </div>
+    <section class="section trust" id="trust">
+      <div class="shell trust-grid"><div class="reveal"><p class="kicker light">Trust architecture</p><h2>Intelligence without surrendering authority.</h2><p class="lede-small">The technical strategy is deliberately governed: bounded AI, role-aware workflows, decision receipts, and a synthetic FHIR metadata path designed to prove controls before sensitive data enters scope.</p><a class="text-link light-link" href="#stage">See current boundaries <span>↓</span></a></div>
+        <div class="control-list reveal"><div><b>01</b><span><strong>Tribal authority</strong><small>Community governance remains human-owned and revocable.</small></span></div><div><b>02</b><span><strong>Purpose-bound access</strong><small>Role, entity, consent, and intended use shape every governed request.</small></span></div><div><b>03</b><span><strong>Explainable AI</strong><small>AI assists analysis; it does not approve research or make clinical decisions.</small></span></div><div><b>04</b><span><strong>Auditability</strong><small>Review states and decision evidence are designed to remain visible.</small></span></div></div>
       </div>
     </section>
 
-    <section class="section why" id="why">
-      <div class="container why-panel reveal">
-        <div class="why-copy">
-          <p class="eyebrow">The Opportunity</p>
-          <h2>Research should work for everyone.</h2>
-          <p>
-            Historically, clinical trials haven't included diverse communities. This creates medications and treatments that don't work equally well for everyone. P.A.R.T.N.E.R. is changing that by making research participation accessible, understandable, and respected.
-          </p>
-        </div>
-
-        <div class="accordion-wrap">
-          <button class="accordion active" type="button">
-            <span>Who can participate?</span>
-            <span class="accordion-symbol">−</span>
-          </button>
-          <div class="accordion-content open">
-            <p>Community members interested in clinical research. If you want to learn about opportunities and be part of medical breakthroughs, we welcome you.</p>
-          </div>
-
-          <button class="accordion" type="button">
-            <span>What's involved?</span>
-            <span class="accordion-symbol">+</span>
-          </button>
-          <div class="accordion-content">
-            <p>We help you understand what clinical trials are, answer your questions, and connect you with opportunities that match your interests and health background.</p>
-          </div>
-
-          <button class="accordion" type="button">
-            <span>How do we protect you?</span>
-            <span class="accordion-symbol">+</span>
-          </button>
-          <div class="accordion-content">
-            <p>Ethics, transparency, and your wellbeing come first. All research is conducted with informed consent and follows strict safety standards.</p>
-          </div>
-        </div>
+    <section class="section stage" id="stage">
+      <div class="shell stage-grid"><div class="section-heading reveal"><p class="kicker">Current stage</p><h2>Building the partnerships that make inclusive research real.</h2></div>
+        <div class="stage-panel reveal"><span class="stage-pill">Early-stage • Partner development</span><p>P.A.R.T.N.E.R. is developing its community engagement, education, and clinical research access model in Tulsa, Oklahoma. We are building relationships with community members, healthcare professionals, research organizations, Tribal leaders, funders, and technical partners who want research to work better for everyone.</p><div class="stage-columns"><div><h3>What we are building</h3><ul><li>Clear, accessible clinical research education</li><li>Respectful community engagement pathways</li><li>Better connections to research opportunities</li><li>Technology informed by trust and local context</li></ul></div><div><h3>How we work</h3><ul><li>Community voice before assumptions</li><li>Informed choice before participation</li><li>Transparency before recruitment</li><li>Partnership before scale</li></ul></div></div></div>
       </div>
     </section>
 
-    <section class="section connect" id="connect">
-      <div class="container connect-card reveal">
-        <p class="eyebrow">Get Involved</p>
-        <h2>Join the movement toward inclusive research.</h2>
-        <p>
-          Whether you're a community member interested in participating, a healthcare professional wanting to partner, or an organization committed to research equity—let's connect.
-        </p>
-        <div class="connect-actions">
-          <a class="btn btn-primary" href="https://www.partner-bioresearch.org/" target="_blank" rel="noopener">Explore Our Work</a>
-          <a class="btn btn-secondary" href="https://www.facebook.com/PARTNERBioResearch" target="_blank" rel="noopener">Follow on Facebook</a>
-          <a class="btn btn-text" href="mailto:infot@partnerbioresearch.org">Email Us</a>
-        </div>
+    <section class="section founder"><div class="shell founder-panel reveal"><p class="quote">“Clinical research does not fail only because of science. It fails when we forget the human layer.”</p><div><strong>Kelsey Elizabeth Powell</strong><span>Founder & inventor • Muscogee (Creek) Nation citizen</span></div></div></section>
 
-        <div class="social-proof">
-          <p class="trust-text">🔒 All inquiries are confidential • 🤝 Community-led • ✨ Ethics-first</p>
-        </div>
-      </div>
-    </section>
+    <section class="section contact" id="contact"><div class="shell contact-panel reveal"><p class="kicker light">Build the next pilot with us</p><h2>Better feasibility starts before the protocol is final.</h2><p>We are opening conversations with Tribal health leaders, research sites, sponsors, funders, and technical partners who believe equitable access and data sovereignty belong in the infrastructure.</p><div class="actions"><a class="button button-light" href="mailto:info@partnerbioresearch.org?subject=P.A.R.T.N.E.R.%20partnership%20conversation">Start a conversation</a><a class="text-link light-link" href="https://www.linkedin.com/company/partner-bioresearch/" target="_blank" rel="noopener noreferrer">Follow our work <span>↗</span></a></div></div></section>
   </main>
 
-  <footer class="footer">
-    <div class="container footer-inner">
-      <p>© <span id="year"></span> P.A.R.T.N.E.R. BioResearch landing page concept.</p>
-      <a href="#home">Back to top ↑</a>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
+  <footer><div class="shell footer-grid"><a class="brand footer-brand" href="#top"><img src="partner-bioresearch-logo.jpg" alt="" width="180" height="120"><span class="sr-only">P.A.R.T.N.E.R. BioResearch</span></a><p>Native-led clinical trial intelligence and sovereign research infrastructure.</p><p>© <span id="year"></span> P.A.R.T.N.E.R. BioResearch</p></div></footer>
 </body>
 </html>
