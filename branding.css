@@ -242,8 +242,11 @@ body {
 }
 
 footer .brand img {
-  filter: brightness(0) invert(1);
-  mix-blend-mode: screen;
+  filter: none;
+  mix-blend-mode: normal;
+  background: #fff;
+  border-radius: 10px;
+  padding: 4px;
 }
 
 .button,
